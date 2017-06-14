@@ -192,9 +192,23 @@ dev.off()
 quit()
 n
 
+# Error correcting reads (I have less than 20 million paired-end reads so I'm using BFC correction)
+seqtk mergepe H1D1Q_1.fq H1D1Q_2.fq > H1D1Q_inter.fq
+bfc -s 50m -k31 -t 16 H1D1Q_inter.fq > H1D1Q.bfc.corr.fq
+split-paired-reads.py H1D1Q.bfc.corr.fq
+mv H1D1Q.bfc.corr.fq.1 H1D1Q.bfc.corr.1.fq
+mv H1D1Q.bfc.corr.fq.2 H1D1Q.bfc.corr.2.fq
+
+seqtk mergepe H1NNM_1.fq H1NNM_2.fq > H1NNM_inter.fq
+bfc -s 50m -k31 -t 16 H1NNM_inter.fq > H1NNM.bfc.corr.fq
+split-paired-reads.py H1NNM.bfc.corr.fq
+mv H1NNM.bfc.corr.fq.1 H1NNM.bfc.corr.1.fq
+mv H1NNM.bfc.corr.fq.2 H1NNM.bfc.corr.2.fq
+
+
 # Merging two Paired-end librarires
-cat H1D1Q_1.fq H1NNM_1.fq > left.fq
-cat H1D1Q_2.fq H1NNM_2.fq > right.fq
+cat H1D1Q.bfc.corr.1.fq H1NNM.bfc.corr.1.fq > left.fq
+cat H1D1Q.bfc.corr.2.fq H1NNM.bfc.corr.2.fq > right.fq
 
 # De novo assembly with non-strand specific data (if you have stranded data you need to include the `--SS_lib_type RF` tag
 # You may want to adjust the --CPU and --max_memory settings top optimize performance
