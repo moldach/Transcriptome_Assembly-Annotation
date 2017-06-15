@@ -1,7 +1,7 @@
 # This is a script used for functional annotation (KOG) of transcriptome (FASTA) file.
 # After inputing your FASTA to WebMGA (http://weizhong-lab.ucsd.edu/metagenomic-analysis/server/kog/) you will append information from output.2 onto your transcriptome
 # Create a script called KOG.py with below code and run like 'python3 KOG.py output.2 Agemmifera.fasta > Agemmifera.annot.fasta'
-
+######################################################################################################################################
 
 #! /usr/bin/python
 
