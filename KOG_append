@@ -36,3 +36,5 @@ for s in fasta_f:
   s.description = '%s KOG=%s'%(s.description, kog)
   print(s.format('fasta'), end='') # python 3
   # if python2: print(s.format('fasta')), with a comma at the end, else you'll get an extra linebreak
+
+# Credit goes to Philipp Bayer
