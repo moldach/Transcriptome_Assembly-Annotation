@@ -10,3 +10,6 @@ Feed your transcriptome from dammit! into:
 3) Sma3s for GO terms (http://www.bioinfocabd.upo.es/node/11#output)
 
 Append the information for KOG, KEGG, and GO terms onto the fasta file produced by dammit for finished product.
+
+# Licence
+This code is released under the MIT License[https://lmullen.mit-license.org/]. The code from runall script is from macmanes-lab/ Oyster_River_Protocol which is used under the terms of its own license[https://github.com/macmanes-lab/Oyster_River_Protocol].
