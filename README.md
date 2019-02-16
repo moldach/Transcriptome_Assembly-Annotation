@@ -1,8 +1,16 @@
-# Transcriptome_Assembly-Annotation
+# Transcriptome Assembly and Annotation
 
-This is a collection of scripts that were used for de novo assembly of Acropora gemmifera (adapted from Matt MacManes Oyster River Protocol), as well as functional annotation and pathway analysis.
+## Background 
+This repo contains a collection of scripts that were used for the _de novo_ assembly of _Acropora gemmifera_ (Oldach & Vize 2018, Marine Genomics) https://doi.org/10.1016/j.margen.2017.12.007 
 
-Use the script runall to do the assembly and gene symbol annotation using dammit. dammit runs a relatively standard annotation protocol for transcriptomes: it begins by building gene models with Transdecoder, and then uses the following protein databases as evidence for annotation: Pfam-A, Rfam, OrthoDB, uniref90.
+## Transcriptome Assembly
+
+Use the `runall` script (adapted from Matt MacManes Oyster River Protocol)
+
+## Transcriptome Annotation
+
+Gene symbol annotation using dammit. https://github.com/dib-lab/dammit
+dammit runs a relatively standard annotation protocol for transcriptomes: it begins by building gene models with Transdecoder, and then uses the following protein databases as evidence for annotation: Pfam-A, Rfam, OrthoDB, uniref90.
 
 Feed your transcriptome from dammit! into:
 1) WebMGA for KOG (http://weizhong-lab.ucsd.edu/metagenomic-analysis/server/kog/)
