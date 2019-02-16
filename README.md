@@ -5,7 +5,7 @@ This repo contains a collection of scripts that were used for the _de novo_ asse
 
 ## Transcriptome Assembly
 
-Use the `runall` script (adapted from Matt MacManes Oyster River Protocol)
+Use the `runall` script (adapted from Matt MacManes Oyster River Protocol) https://github.com/macmanes-lab/Oyster_River_Protocol
 
 ## Transcriptome Annotation
 
