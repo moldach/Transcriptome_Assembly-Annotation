@@ -13,7 +13,7 @@ Gene symbol annotation using dammit. https://github.com/dib-lab/dammit
 dammit runs a relatively standard annotation protocol for transcriptomes: it begins by building gene models with Transdecoder, and then uses the following protein databases as evidence for annotation: Pfam-A, Rfam, OrthoDB, uniref90.
 
 Feed your transcriptome from dammit! into:
-1) WebMGA for KOG (http://weizhong-lab.ucsd.edu/webMGA/)
+1) WebMGA for KOG (http://weizhong-lab.ucsd.edu/webMGA/server/kog/)
 2) KAAS for KEGG (http://www.genome.jp/tools/kaas/)
 3) Sma3s for GO terms (http://www.bioinfocabd.upo.es/node/11#output)
 
