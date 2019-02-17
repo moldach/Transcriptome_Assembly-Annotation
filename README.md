@@ -8,11 +8,13 @@ This repo contains a collection of scripts that were used for the _de novo_ asse
 ### Contact information
 
 Matthew J. Oldach 
-E-mail: moldach686@gmail.com
-[Twitter: @MattOldach](https://twitter.com/MattOldach)
-[Website: https://moldach.github.io/](https://moldach.github.io/)
+
++ E-mail: moldach686@gmail.com
++ [Twitter: @MattOldach](https://twitter.com/MattOldach)
++ [Website: https://moldach.github.io/](https://moldach.github.io/)
 
 ***
+
 ## Assembly
 
 Use the `runall` script (adapted from Matt MacManes [Oyster River Protocol](https://github.com/macmanes-lab/Oyster_River_Protocol) which combines scripts for the optimization of (eukaryotic) transcriptome assembly, using a multi-kmer multi-assembler approach, then merges those assemblies into 1 final assembly.
