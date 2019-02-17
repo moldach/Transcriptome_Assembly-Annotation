@@ -5,6 +5,8 @@ This repo contains a collection of scripts that were used for the _de novo_ asse
 
 > Oldach, M.J. and Vize, P.D., 2018. De novo assembly and annotation of the Acropora gemmifera transcriptome. Marine Genomics, 40, pp.9-12. https://doi.org/10.1016/j.margen.2017.12.007 
 
+Please cite the manuscript if you use it.
+
 ### Contact information
 
 Matthew J. Oldach 
