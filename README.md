@@ -33,7 +33,7 @@ Use the `runall` script adapted from [Matt MacManes](https://twitter.com/macmane
 
 **cough** **cough** (meaning) `BLAST2GO`!
 
-dammit runs a relatively standard annotation protocol for transcriptomes: it begins by building gene models with Transdecoder, and then uses the following protein databases as evidence for annotation: 
+dammit runs a relatively standard annotation protocol for transcriptomes: it begins by building gene models with [Transdecoder](http://transdecoder.github.io/), and then uses the following protein databases as evidence for annotation: 
 
 + [Pfam-A](https://pfam.xfam.org/) a large collection of protein families, represented by multiple sequence alignments and hidden Markov models (HMMs)
 + [Rfam](http://rfam.xfam.org/) a collection of RNA families, each represented by multiple sequence 
