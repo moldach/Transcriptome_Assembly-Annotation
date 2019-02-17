@@ -10,8 +10,8 @@ This repo contains a collection of scripts that were used for the _de novo_ asse
 Matthew J. Oldach 
 
 + E-mail: moldach686@gmail.com
-+ [Twitter: @MattOldach](https://twitter.com/MattOldach)
-+ [Website: https://moldach.github.io/](https://moldach.github.io/)
++ Twitter: [@MattOldach](https://twitter.com/MattOldach)
++ Website: [https://moldach.github.io/](https://moldach.github.io/)
 
 ***
 
