@@ -1,4 +1,4 @@
-# Transcriptome Assembly and Functional Annotation Pipeline
+# Transcriptome Assembly and Annotation Pipeline
 
 ### Background 
 This repo contains a collection of scripts that were used for the _de novo_ assembly of _Acropora gemmifera_ transcriptome.
