@@ -19,7 +19,7 @@ Matthew J. Oldach
 
 ## Assembly
 
-Use the `runall` script (adapted from Matt MacManes [Oyster River Protocol](https://github.com/macmanes-lab/Oyster_River_Protocol) which combines scripts for the optimization of (eukaryotic) transcriptome assembly, using a multi-kmer multi-assembler approach, then merges those assemblies into 1 final assembly.
+Use the `runall` script adapted from [Matt MacManes](https://twitter.com/macmanes)'s [Oyster River Protocol](https://github.com/macmanes-lab/Oyster_River_Protocol) which combines scripts for the optimization of (eukaryotic) transcriptome assembly, using a multi-kmer multi-assembler approach, then merges those assemblies into 1 final assembly.
 
 *Note: ammendements to the Oyster River Protocol may have happened since this pipeline was created/run. If your intent is reproducing the results of the paper then use the `runall` script as is. If you are using this repo for your own _de novo_ eukaryotic assembly it is prudent to check the official repo and make any necessary changes to the `runall` script.*
 
@@ -48,6 +48,7 @@ Feed your transcriptome from dammit! into:
 
 Append the information for KOG, KEGG, and GO terms onto the fasta file produced by dammit for the assembled and annotated final product.
 
+***
 ## Caveats of Transcriptome Assembly and Annotation
 
 + Impacted by the quality of the sequence
