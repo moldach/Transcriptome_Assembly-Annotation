@@ -40,7 +40,7 @@ dammit runs a relatively standard annotation protocol for transcriptomes: it beg
 + [OrthoDB](https://www.orthodb.org/) a catalog of orthologous protein-coding genes across vertebrates, arthropods, fungi, plants, and bacteria.
 + [uniref90](https://www.uniprot.org/help/uniref) UniRef90 is built by clustering UniRef100 sequences with 11 or more residues using the CD-HIT algorithm
 
-Follow along with the docs for `dammit` for this step: https://angus.readthedocs.io/en/2018/dammit_annotation.html
+Follow along with the docs for `dammit` for this step: https://angus.readthedocs.io/en/2018/dammit_annotation.html or [the workshop](https://angus.readthedocs.io/en/2017/dammit_annotation.html#annotation)
 
 You will now have a number of files. Most importantly is the `<filename>.dammit.fasta` file which will be used in the next steps:
 
