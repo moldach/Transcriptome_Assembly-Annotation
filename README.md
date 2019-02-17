@@ -19,6 +19,8 @@ Matthew J. Oldach
 
 Use the `runall` script (adapted from Matt MacManes [Oyster River Protocol](https://github.com/macmanes-lab/Oyster_River_Protocol) which combines scripts for the optimization of (eukaryotic) transcriptome assembly, using a multi-kmer multi-assembler approach, then merges those assemblies into 1 final assembly.
 
+**Note: ammendements to the Oyster River Protocol may have happened since this repo/assembly created. If your intent is reproduction use the `runall` script as is. If you are using this repo for your own _de novo_ eukaryotic assembly it is prudent to check the official repo and make any necessary changes to the `runall` script.**
+
 ## Annotation
 
 ### dammit. https://github.com/dib-lab/dammit
