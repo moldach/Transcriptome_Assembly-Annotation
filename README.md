@@ -1,5 +1,8 @@
 # Transcriptome Assembly and Annotation Pipeline
 
+MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/moldach/Transcriptome_Assembly-Annotation/blob/master/LICENSE.md)
+
+
 ### Publication
 ***
 This repo contains a collection of scripts that were used for the _de novo_ assembly of _Acropora gemmifera_ transcriptome.
