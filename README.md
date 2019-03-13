@@ -57,6 +57,15 @@ Append the information for KOG, KEGG, and GO terms onto the fasta file produced 
 + Impacted by the quality of the sequence
 + Iterative, never perfect, can always be improved with new evidence and improved algorthms
 
-# Licence
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+
+## Licence
 ***
-This code is released under the [MIT License](https://lmullen.mit-license.org/). The code from runall script is from [macmanes-lab/Oyster_River_Protocol](https://github.com/macmanes-lab/Oyster_River_Protocol) which is used under the terms of its own [license](https://github.com/macmanes-lab/Oyster_River_Protocol).
+This code is released under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+* Code from `runall.sh` script was adapted from [macmanes-lab/Oyster_River_Protocol](https://github.com/macmanes-lab/Oyster_River_Protocol) which was released under the [CC0 1.0 Universal](https://github.com/macmanes-lab/Oyster_River_Protocol/blob/master/LICENSE) license.
