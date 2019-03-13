@@ -59,4 +59,4 @@ Append the information for KOG, KEGG, and GO terms onto the fasta file produced 
 
 # Licence
 ***
-This code is released under the [MIT License](https://lmullen.mit-license.org/). The code from runall script is from macmanes-lab/Oyster_River_Protocol which is used under the terms of its own [license](https://github.com/macmanes-lab/Oyster_River_Protocol).
+This code is released under the [MIT License](https://lmullen.mit-license.org/). The code from runall script is from [macmanes-lab/Oyster_River_Protocol](https://github.com/macmanes-lab/Oyster_River_Protocol) which is used under the terms of its own [license](https://github.com/macmanes-lab/Oyster_River_Protocol).
